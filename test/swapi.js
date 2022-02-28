@@ -114,7 +114,7 @@ describe('GET /planets/:id', () => {
         request.get(`planets/3`)
         const t1 = performance.now();
         timediff = t1 - t0;
-        expect(timediff).to.not.be.greaterThan(3)
+        expect(timediff).to.not.be.greaterThan(6)
     });
 
     it('Negative test', async () => {
