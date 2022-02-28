@@ -8,7 +8,7 @@ var fs = require('fs');
 const expect = chai.expect;
 const nock = require('nock');
 chai.use(require('chai-json-schema'));
-describe('GET /planets/:id', () => {
+describe('Test /planets/:id', () => {
     it('Verify response headers', async () => {
         const res = await
         request.get(`planets/3`)
@@ -117,7 +117,7 @@ describe('GET /planets/:id', () => {
         expect(timediff).to.not.be.greaterThan(3)
     });
 
-    it('Negative test', async () => {
+    it('Negative test', async () => { 
         const userData = {
             name: "Automated testing",
             Completed: true
