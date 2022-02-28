@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- npm
+- npm installation
 
 ---
 
@@ -11,7 +11,7 @@
 1. Clone the repo
 
 ```
-git clone https://github.com/Adebimpe11/swapi_api_test.git
+git clone https://github.com/Adebimpe11/swapi_api_test
 ```
 
 2. Install NPM packages
