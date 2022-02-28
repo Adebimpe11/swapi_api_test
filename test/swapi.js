@@ -9,6 +9,7 @@ const expect = chai.expect;
 const nock = require('nock');
 chai.use(require('chai-json-schema'));
 describe('Test /planets/:id', () => {
+
     it('Verify response headers', async () => {
         const res = await
         request.get(`planets/3`)
@@ -137,4 +138,4 @@ describe('Test /planets/:id', () => {
 
     });
 
-})
+});
